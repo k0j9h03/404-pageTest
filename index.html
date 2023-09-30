@@ -42,8 +42,8 @@
         .smallO {
             width: 35px;
             position: absolute;
-            top: 50%; /* 세로 중앙 정렬 */
-            left: 50%; /* 가로 중앙 정렬 */
+            top: 50%; 
+            left: 50%; 
             transform: translate(-50%, -50%); /* 가운데 정렬을 위한 변환 */
         }
 
@@ -150,11 +150,11 @@
                     bigO.style.transition = 'transform 0.1s';
                     bigO.style.transform = 'scaleY(0)';
 
-                    // 3초 후에 scaleY를 다시 1로 되돌림
+                    //다시 눈펴기
                     setTimeout(function(){
                         bigO.style.transition = 'transform 0.1s';
                         bigO.style.transform = 'scaleY(1)';
-                    }, 100); // 3초 후에 실행
+                    }, 100); 
                 }
             });
 
